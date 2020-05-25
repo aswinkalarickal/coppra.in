@@ -73,11 +73,27 @@ a {
 }
 
 .container > .right > .content > p > a {
-    border-bottom: var(--text-color) 1px solid;
-    padding-bottom: 0.2rem;
+    /* border-bottom: var(--text-color) 1px solid; */
+    /* padding-bottom: 0.2rem; */
+    position: relative;
 }
 
-@media (max-width: 1024px) {
+.container > .right > .content > p > a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.2rem;
+    width: 0;
+    height: 1px;
+    background-color: var(--text-color);
+    transition: width 0.3s ease-out;
+}
+
+.container > .right > .content > p > a:hover:after {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
     .container {
         display: block;
         height: auto;
