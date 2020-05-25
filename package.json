@@ -1,7 +1,7 @@
 {
   "name": "coppra-website",
   "version": "1.0.0",
-  "description": "Webiste for Coppra",
+  "description": "Website of Coppra",
   "scripts": {
     "dev": "parcel src/index.html",
     "prebuild": "rm -rf dist",
