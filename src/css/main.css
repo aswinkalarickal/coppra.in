@@ -30,7 +30,7 @@ a {
 }
 
 .container > .left {
-    background: url(../images/coppra_logo.png), url(../images/background.jpg);
+    background: url(../img/logo.png), url(../img/background.jpg);
     background-size: 12rem, cover;
     background-position: center, 0;
     background-repeat: no-repeat;
