@@ -1,0 +1,17 @@
+{
+  "name": "coppra-website",
+  "version": "1.0.0",
+  "description": "Webiste for Coppra",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "Aswin Kalarickal",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-ogimage": "^1.2.0"
+  }
+}
