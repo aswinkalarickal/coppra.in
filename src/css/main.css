@@ -73,8 +73,6 @@ a {
 }
 
 .container > .right > .content > p > a {
-    /* border-bottom: var(--text-color) 1px solid; */
-    /* padding-bottom: 0.2rem; */
     position: relative;
 }
 
@@ -106,5 +104,10 @@ a {
     
     .container > .right {
         margin: 2rem 0;
+    }
+
+    .container > .right > .content > p > a:after {
+        width: 100%;
+        transition: none;
     }
 }
